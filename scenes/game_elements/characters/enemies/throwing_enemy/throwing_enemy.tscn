@@ -8,7 +8,7 @@
 height = 42.0
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_ffq0m"]
-size = Vector2(78, 75)
+size = Vector2(42, 75)
 
 [sub_resource type="Animation" id="Animation_xcanh"]
 length = 0.001
@@ -248,7 +248,8 @@ projectile_scene = ExtResource("2_yhlrh")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1865971466]
 unique_name_in_owner = true
-position = Vector2(0, -30)
+position = Vector2(-4, -38)
+scale = Vector2(1.5129359, 1.2272424)
 sprite_frames = ExtResource("2_cvpou")
 animation = &"walk"
 autoplay = "idle"
@@ -273,7 +274,7 @@ collision_layer = 128
 collision_mask = 256
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="HitBox" unique_id=1491090207]
-position = Vector2(0, -31.5)
+position = Vector2(-2, -31.5)
 shape = SubResource("RectangleShape2D_ffq0m")
 debug_color = Color(0.990065, 0, 0.28292, 0.42)
 

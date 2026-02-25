@@ -1,0 +1,26 @@
+[gd_scene format=3 uid="uid://d1qmr2r7kegxj"]
+
+[ext_resource type="PackedScene" uid="uid://bvvpmr5ssxmkh" path="res://scenes/quests/story_quests/el_caballero_de_la_p/1_stealth/el_caballero_de_la_p_stealth.tscn" id="1_k2evc"]
+[ext_resource type="PackedScene" uid="uid://d37mebu7atru7" path="res://scenes/game_elements/characters/enemies/guard/guard.tscn" id="2_5ahl5"]
+[ext_resource type="SpriteFrames" uid="uid://lipymchdbd3p" path="res://scenes/quests/story_quests/el_caballero_de_la_p/1_stealth/stealth_components/el_caballero_de_la_p_guard_enemy.tres" id="3_nsu6s"]
+
+[sub_resource type="Curve2D" id="Curve2D_7a071"]
+bake_interval = 2.5
+_data = {
+"points": PackedVector2Array(0, 0, 0, 0, -4629.33, 278.319, 0, 0, 0, 0, 1642.6626, 294.81134)
+}
+point_count = 2
+
+[node name="ElCaballeroDeLaPStealth" unique_id=528815133 instance=ExtResource("1_k2evc")]
+
+[node name="Guard1-GoingBackAndForth3" parent="EnemyGuards" parent_id_path=PackedInt32Array(1997239040) index="1" unique_id=689832587 node_paths=PackedStringArray("patrol_path") instance=ExtResource("2_5ahl5")]
+position = Vector2(119.99988, 154.18204)
+sprite_frames = ExtResource("3_nsu6s")
+patrol_path = NodePath("../Guard1-PatrolPath")
+move_speed = 200.0
+
+[node name="Guard1-PatrolPath3" type="Path2D" parent="EnemyGuards" parent_id_path=PackedInt32Array(1997239040) index="3" unique_id=33476684]
+top_level = true
+position = Vector2(616.0002, 56)
+scale = Vector2(0.107143, 0.352768)
+curve = SubResource("Curve2D_7a071")
