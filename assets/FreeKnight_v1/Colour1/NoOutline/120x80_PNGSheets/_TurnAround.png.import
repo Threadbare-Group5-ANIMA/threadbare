@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dp2qh4gnhm516"
+=======
+uid="uid://d4iiewy32tj2d"
+>>>>>>> 5ca9bc8f49c83742b0c34503c8d0be7b818bd488
 path="res://.godot/imported/_TurnAround.png-5e7b241227acd4723c20ebbb62c32828.ctex"
 metadata={
 "vram_texture": false

@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://b3m6lbo1k1hbo"
+=======
+uid="uid://bj623rigxvl85"
+>>>>>>> 5ca9bc8f49c83742b0c34503c8d0be7b818bd488
 path="res://.godot/imported/_Dash.png-d22158575ddf13389c6ad431ab9a8cb3.ctex"
 metadata={
 "vram_texture": false

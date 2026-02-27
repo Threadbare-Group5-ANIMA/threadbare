@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://cls3756c01eri"
+=======
+uid="uid://ftm4b2oh88m5"
+>>>>>>> 5ca9bc8f49c83742b0c34503c8d0be7b818bd488
 path="res://.godot/imported/_WallClimbNoMovement.png-697f5413920b152d3ea9b31899c1d5a5.ctex"
 metadata={
 "vram_texture": false

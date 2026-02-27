@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://bj8udxnydg2j0"
+=======
+uid="uid://cxq4i5axm3qhi"
+>>>>>>> 5ca9bc8f49c83742b0c34503c8d0be7b818bd488
 path="res://.godot/imported/_CrouchAll.png-1ae65c7c66eb56bcd4f41218ad01a410.ctex"
 metadata={
 "vram_texture": false

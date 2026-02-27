@@ -2,7 +2,11 @@
 
 importer="texture"
 type="CompressedTexture2D"
+<<<<<<< HEAD
 uid="uid://dirrsfbb7otxa"
+=======
+uid="uid://utdci40o6lhu"
+>>>>>>> 5ca9bc8f49c83742b0c34503c8d0be7b818bd488
 path="res://.godot/imported/_Roll.png-22d9c6376595d3f8086b6771cfa006d4.ctex"
 metadata={
 "vram_texture": false
