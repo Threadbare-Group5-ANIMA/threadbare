@@ -1,0 +1,5 @@
+[gd_scene format=3 uid="uid://b0d88as6u5yo2"]
+
+[ext_resource type="PackedScene" uid="uid://dgylusy2fl5ve" path="res://scenes/quests/story_quests/el_caballero_de_la_p/4_outro/el_caballero_de_la_p_outro.tscn" id="1_dmnxi"]
+
+[node name="ElCaballeroDeLaPOutro" unique_id=1273842832 instance=ExtResource("1_dmnxi")]

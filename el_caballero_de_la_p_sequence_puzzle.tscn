@@ -1,0 +1,90 @@
+[gd_scene format=4 uid="uid://drvvjkx3of8i1"]
+
+[ext_resource type="PackedScene" uid="uid://b11aiqxvahno0" path="res://scenes/quests/story_quests/el_caballero_de_la_p/3_sequence_puzzle/el_caballero_de_la_p_sequence_puzzle.tscn" id="1_7k7ph"]
+[ext_resource type="Texture2D" uid="uid://c0jbufyq2k42u" path="res://assets/velas/descarga-_10_.png" id="2_0gglv"]
+[ext_resource type="Material" uid="uid://64aeyjitacv3" path="res://scenes/game_elements/props/void/void_chromakey_material.tres" id="3_0n8xs"]
+[ext_resource type="TileSet" uid="uid://bvkyid66vjq0j" path="res://scenes/quests/story_quests/el_caballero_de_la_p/tiles/el_caballero_de_la_p_water.tres" id="4_05ec8"]
+
+[node name="ElCaballeroDeLaPSequencePuzzle" unique_id=217609538 instance=ExtResource("1_7k7ph")]
+
+[node name="Sprite2D" type="Sprite2D" parent="." index="0" unique_id=1831836501]
+light_mask = 0
+position = Vector2(480.50006, 318)
+scale = Vector2(3.9110324, 4.2681565)
+texture = ExtResource("2_0gglv")
+
+[node name="Water" parent="TileMapLayers" parent_id_path=PackedInt32Array(2088852286) index="0" unique_id=300386063]
+visibility_layer = 0
+position = Vector2(0, -32)
+tile_map_data = PackedByteArray("AAALAP//AAAAAAAAAAAHAP7/AAAAAAAAAAD//woAAAAAAAAAAAAAAAoAAAAAAAAAAAABAAoAAAAAAAAAAAACAAoAAAAAAAAAAAADAAoAAAAAAAAAAAAEAAoAAAAAAAAAAAAFAAoAAAAAAAAAAAAGAAoAAAAAAAAAAAAHAAoAAAAAAAAAAAAIAAoAAAAAAAAAAAAJAAoAAAAAAAAAAAAKAAoAAAAAAAAAAAALAAoAAAAAAAAAAAAMAAoAAAAAAAAAAAANAAoAAAAAAAAAAAAOAAoAAAAAAAAAAAAPAAoAAAAAAAAAAAAQAAoAAAAAAAAAAAA=")
+
+[node name="Grass" parent="TileMapLayers" parent_id_path=PackedInt32Array(2088852286) index="1" unique_id=592819758]
+tile_map_data = PackedByteArray()
+
+[node name="Sand" parent="TileMapLayers" parent_id_path=PackedInt32Array(2088852286) index="2" unique_id=2049231096]
+tile_map_data = PackedByteArray()
+
+[node name="muro" type="TileMapLayer" parent="." index="2" unique_id=910860944]
+visibility_layer = 0
+material = ExtResource("3_0n8xs")
+position = Vector2(-3, -16)
+tile_map_data = PackedByteArray("AAALAP//AAAAAAAAAAAHAP7/AAAAAAAAAAD//woAAAAAAAAAAAAAAAoAAAAAAAAAAAABAAoAAAAAAAAAAAACAAoAAAAAAAAAAAADAAoAAAAAAAAAAAAEAAoAAAAAAAAAAAAFAAoAAAAAAAAAAAAGAAoAAAAAAAAAAAAHAAoAAAAAAAAAAAAIAAoAAAAAAAAAAAAJAAoAAAAAAAAAAAAKAAoAAAAAAAAAAAALAAoAAAAAAAAAAAAMAAoAAAAAAAAAAAANAAoAAAAAAAAAAAAOAAoAAAAAAAAAAAAPAAoAAAAAAAAAAAAQAAoAAAAAAAAAAAD//wgAAAAAAAAAAAAAAAgAAAAAAAAAAAABAAgAAAAAAAAAAAACAAgAAAAAAAAAAAADAAgAAAAAAAAAAAAEAAgAAAAAAAAAAAAFAAgAAAAAAAAAAAAGAAgAAAAAAAAAAAAHAAgAAAAAAAAAAAAIAAgAAAAAAAAAAAAJAAgAAAAAAAAAAAAKAAgAAAAAAAAAAAALAAgAAAAAAAAAAAAMAAgAAAAAAAAAAAANAAgAAAAAAAAAAAAOAAgAAAAAAAAAAAAPAAgAAAAAAAAAAAAQAAkAAAAAAAAAAAAQAAgAAAAAAAAAAAD+/wgAAAAAAAAAAAD+/wkAAAAAAAAAAAD+/woAAAAAAAAAAAA=")
+tile_set = ExtResource("4_05ec8")
+
+[node name="Player" parent="OnTheGround" parent_id_path=PackedInt32Array(1358184019) index="0" unique_id=747348360]
+visibility_layer = 3
+position = Vector2(74.000046, 592)
+scale = Vector2(2.325, 2.325)
+
+[node name="Camera2D" parent="OnTheGround/Player" index="11" unique_id=1732237457]
+scale = Vector2(2.325, 2.325)
+zoom = Vector2(1.233, 1.233)
+
+[node name="Blue" parent="OnTheGround/SequencePuzzle/Objects" parent_id_path=PackedInt32Array(7570625) index="0" unique_id=288264421]
+position = Vector2(11, 104)
+collision_layer = 0
+
+[node name="Pink" parent="OnTheGround/SequencePuzzle/Objects" parent_id_path=PackedInt32Array(7570625) index="1" unique_id=947200111]
+visibility_layer = 3
+position = Vector2(77, 104)
+collision_layer = 0
+
+[node name="Yellow" parent="OnTheGround/SequencePuzzle/Objects" parent_id_path=PackedInt32Array(7570625) index="2" unique_id=883789242]
+visibility_layer = 3
+position = Vector2(142, 104)
+collision_layer = 0
+
+[node name="Green" parent="OnTheGround/SequencePuzzle/Objects" parent_id_path=PackedInt32Array(7570625) index="3" unique_id=472811334]
+visibility_layer = 3
+position = Vector2(201, 104)
+collision_layer = 0
+
+[node name="Purple" parent="OnTheGround/SequencePuzzle/Objects" parent_id_path=PackedInt32Array(7570625) index="4" unique_id=699569316]
+visibility_layer = 3
+position = Vector2(259, 104)
+collision_layer = 0
+
+[node name="Red" parent="OnTheGround/SequencePuzzle/Objects" parent_id_path=PackedInt32Array(7570625) index="5" unique_id=141148153]
+visibility_layer = 3
+position = Vector2(316, 104)
+collision_layer = 0
+
+[node name="HintSign1" parent="OnTheGround/SequencePuzzle/Signs" parent_id_path=PackedInt32Array(1795857144) index="0" unique_id=948532428]
+light_mask = 3
+visibility_layer = 3
+position = Vector2(798, 585)
+collision_layer = 0
+
+[node name="HintSign2" parent="OnTheGround/SequencePuzzle/Signs" parent_id_path=PackedInt32Array(1795857144) index="1" unique_id=2039036310]
+light_mask = 3
+visibility_layer = 3
+position = Vector2(871, 584)
+collision_layer = 0
+
+[node name="CollectibleItem" parent="OnTheGround" parent_id_path=PackedInt32Array(1358184019) index="2" unique_id=1678374994]
+position = Vector2(999, 569)
+
+[node name="Sign" parent="OnTheGround" parent_id_path=PackedInt32Array(1358184019) index="3" unique_id=263994380]
+position = Vector2(1, 582)
+text = "Que la \"Luz\" de dios
+te guie."

@@ -1,0 +1,28 @@
+[gd_scene format=4 uid="uid://dn0m1ji040y32"]
+
+[ext_resource type="PackedScene" uid="uid://dighnf0aifvur" path="res://scenes/quests/story_quests/el_caballero_de_la_p/0_intro/el_caballero_de_la_p_intro.tscn" id="1_8xrrp"]
+[ext_resource type="Texture2D" uid="uid://bvq1nxmxhxx3" path="res://assets/velas/descarga-_9_.png" id="2_1gbtu"]
+
+[node name="ElCaballeroDeLaPIntro" unique_id=2049284984 instance=ExtResource("1_8xrrp")]
+
+[node name="IntroImage" parent="TileMapLayers" parent_id_path=PackedInt32Array(591504591) index="1" unique_id=1406016146]
+position = Vector2(1180.3125, 445.84378)
+scale = Vector2(3.365327, 1.2810416)
+texture = ExtResource("2_1gbtu")
+
+[node name="Sand" parent="TileMapLayers" parent_id_path=PackedInt32Array(591504591) index="2" unique_id=874671513]
+tile_map_data = PackedByteArray("AAD4/wcAAQAFAAMAAAD5/wcAAQAGAAMAAAD6/wcAAQAGAAMAAAD7/wcAAQAGAAMAAAD8/wcAAQAGAAMAAAD9/wcAAQAGAAMAAAD+/wcAAQAGAAMAAAD//wcAAQAGAAMAAAAAAAcAAQAGAAMAAAABAAcAAQAGAAMAAAACAAcAAQAGAAMAAAADAAcAAQAGAAMAAAAEAAcAAQAGAAMAAAAFAAcAAQAGAAMAAAAGAAcAAQAGAAMAAAAHAAcAAQAGAAMAAAAIAAcAAQAGAAMAAAAJAAcAAQAGAAMAAAAKAAcAAQAGAAMAAAALAAcAAQAGAAMAAAAMAAcAAQAGAAMAAAANAAcAAQAGAAMAAAANAAoABgAAAAIAAAAOAAoABgABAAIAAAAPAAoABgABAAIAAAAQAAoABgABAAIAAAARAAoABgABAAIAAAASAAoABgABAAIAAAATAAoABgABAAIAAAAUAAoABgABAAIAAAAVAAoABgABAAIAAAAWAAoABgABAAIAAAANAAkABgAAAAEAAAANAAgABgAAAAEAAAANAAYABgAAAAEAAAANAAUABgAAAAEAAAANAAQABgAAAAEAAAANAAMABgAAAAAAAAAOAAMABgABAAAAAAAPAAMABgABAAAAAAAQAAMABgABAAAAAAARAAMABgABAAAAAAASAAMABgABAAAAAAATAAMABgABAAAAAAAUAAMABgABAAAAAAAVAAMABgABAAAAAAAWAAMABgABAAAAAAA=")
+
+[node name="Camera2D" parent="." index="1" unique_id=1064875179]
+zoom = Vector2(1, 1)
+limit_left = 91
+limit_top = 56
+limit_right = 1467
+limit_bottom = 712
+
+[node name="Character" parent="OnTheGround" parent_id_path=PackedInt32Array(836096441) index="0" unique_id=169229228]
+scale = Vector2(2.1916666, 3.075)
+offset = Vector2(2.281372, -8.780487)
+
+[node name="Cinematic" parent="." index="4" unique_id=1398238637]
+position = Vector2(237, 81)
