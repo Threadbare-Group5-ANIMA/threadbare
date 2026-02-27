@@ -44,7 +44,7 @@ polygon = PackedVector2Array(-32, -0.385544, -26.6025, -16.9639, -19.1244, -25.2
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_4nev1"]
 texture = ExtResource("1_u6eg7")
-texture_region_size = Vector2i(64, 64)
+texture_region_size = Vector2i(64, 63)
 0:0/0 = 0
 0:0/0/y_sort_origin = 10
 0:0/0/terrain_set = 0
